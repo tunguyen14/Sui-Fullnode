@@ -6,6 +6,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install cargo
 rustup update stable
 
+check : $ cargo version
+
 2.  install these extra dependencies
     apt-get update \
     && DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get install -y --no-install-recommends \
